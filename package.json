@@ -1,0 +1,19 @@
+{
+  "name": "auth0_cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "export": "node export.js",
+    "import": "node import.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "auth0-deploy-cli": "^5.5.7",
+    "dotenv-cli": "^4.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0"
+  }
+}
